@@ -1,0 +1,98 @@
+﻿#excluirCadastro h1 {
+    text-align: center;
+}
+
+div#excluirCadastro {
+    position: relative;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+/*ID*/
+p#idCliente {
+    position: relative;
+    left: 120px;
+}
+
+#ContentPlaceHolder1_txtID {
+    position: relative;
+    top: -35px;
+    left: 150px;
+    width: 50px;
+    text-align: center;
+}
+
+#ContentPlaceHolder1_btnConsultar {
+    position: relative;
+    top: -35px;
+    left: 300px;
+}
+
+/*Nome*/
+p#nome {
+    position: relative;
+    top: -10px;
+    left: 60px;
+
+}
+
+#ContentPlaceHolder1_txtNome {
+    position: relative;
+    top: -45px;
+    left: 118px;
+    width: 270px;
+    text-align: center;
+}
+
+/*DataNasc*/
+p#dataNasc {
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+
+#ContentPlaceHolder1_txtDataNasc {
+    position: relative;
+    top: -66px;
+    left: 220px;
+    width: 70px;
+}
+
+/*Status*/
+p#status {
+    position: relative;
+    top: -53px;
+    left: 60px;
+}
+
+#ContentPlaceHolder1_txtStatus {
+    position: relative;
+    top: -89px;
+    left: 120px;
+    width: 80px;
+    text-align: center;
+}
+
+/*Botões*/
+#ContentPlaceHolder1_btnExcluir {
+    position: relative;
+    top: -50px;
+    left: 310px;
+    width: 80px;
+}
+
+
+/*Avisos*/
+#ContentPlaceHolder1_lblAviso {
+    position: absolute;
+    right: 400px;
+    top: 250px;
+    text-align: justify;
+}

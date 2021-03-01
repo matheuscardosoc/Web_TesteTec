@@ -1,0 +1,146 @@
+﻿/*Div para consultar*/
+#consultar h1 {
+    text-align: center;
+}
+
+
+div#consultar {
+    position: relative;
+    top: -10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(184,134,11,0.8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 500px;
+}
+
+/*Consultar por ID*/
+
+#consultar p {
+    position: relative;
+    left: 150px;
+}
+
+#ContentPlaceHolder1_txtConsultar {
+    position: relative;
+    top: -35px;
+    left: 235px;
+    width: 40px;
+    text-align: center;
+}
+
+#ContentPlaceHolder1_btnConsultar {
+    position: relative;
+    top: -35px;
+    left: 240px;
+}
+
+#ContentPlaceHolder1_lblErro {
+    text-align: center;
+}
+
+/*Div para os dados*/
+
+div#dados {
+    position: relative;
+    top: -10px;
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#dados h1 {
+    text-align: center;
+}
+
+#ContentPlaceHolder1_lblID {
+    position: relative;
+    left: 10px;
+}
+
+/*Nome*/
+
+#ContentPlaceHolder1_lblNome {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+p#nome {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#ContentPlaceHolder1_txtNome {
+    position: relative;
+    top: -15px;
+    left: 100px;
+}
+
+#ContentPlaceHolder1_btnNome {
+    position: relative;
+    top: -15px;
+    left: 100px;
+}
+
+/*DataNasc*/
+
+#ContentPlaceHolder1_lblDataNasc {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+p#dataNasc {
+    position: relative;
+    left: 10px;
+}
+
+#ContentPlaceHolder1_txtDataNasc {
+    position: relative;
+    top: -36px;
+    left: 100px;
+}
+
+#ContentPlaceHolder1_btnDataNasc {
+    position: relative;
+    top: -35px;
+    left: 100px;
+}
+
+/*Status*/
+
+#ContentPlaceHolder1_lblStatus {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+p#status {
+    position: relative;
+    top:-20px;
+    left: 10px;
+}
+
+#ContentPlaceHolder1_rbStatus {
+    position: relative;
+    top: -57px;
+    left: 105px;
+}
+
+#ContentPlaceHolder1_btnStatus {
+    position: relative;
+    top: -104px;
+    left: 190px;
+} 

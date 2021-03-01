@@ -1,0 +1,73 @@
+﻿body {
+    background-color: gainsboro;
+}
+
+div#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+div#menu a:visited {
+    text-decoration: none;
+}
+
+ul#menuPrincipal {
+    background-color: black;
+}
+
+ul#menuPrincipal li {
+    display: inline;
+}
+
+ul#menuPrincipal li a {
+    padding: 10px 50px 10px 50px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.6s;
+}
+
+ul#menuPrincipal li a:hover {
+    background-color: darkgrey;
+    color: #313131;
+}
+
+div#header_logo h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    color: white;
+}
+
+div#header_logo h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+div#header_logo {
+    border: solid 2px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.8);
+    color: gray;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}

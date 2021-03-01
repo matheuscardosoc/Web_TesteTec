@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Web_TesteTec.Pages.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><%: Page.Title %></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="~/Styles/master.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div id="header_logo">
+                    <h1><a href="Default.aspx">Teste</a></h1>
+                    <h2><a href="Default.aspx">Desafio Técnico</a></h2>
+                </div>
+                <div id="menu">
+                    <nav>
+                        <ul id="menuPrincipal">
+                            <li><a href="Default.aspx">Home</a></li>
+                            <li><a href="EditarDados.aspx">Editar Dados</a></li>
+                            <li><a href="CadastroCliente.aspx">Cadastrar Cliente</a></li>
+                            <li><a href="ExcluirCliente.aspx">Excluir Cliente</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
